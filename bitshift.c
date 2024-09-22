@@ -12,9 +12,9 @@ void main(){
     sendmsg += length << 2;
     sendmsg += setup << 1;
     sendmsg += stop;
+    printf("%d\n",flag);
     printf("%d\n",Resivernm);
     printf("%d\n",length);
-    printf("%d\n",flag);
     printf("%d\n",setup);
     printf("%d\n",stop);
     printf("%d",sendmsg);
